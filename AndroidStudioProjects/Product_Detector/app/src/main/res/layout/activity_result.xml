@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="35dp">
+        <ImageView
+            android:id="@+id/originImageView"
+            android:layout_width="72dp"
+            android:layout_height="128dp"
+            app:srcCompat="@android:color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewLabel1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:textSize="24sp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/textViewLabel2"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:textSize="24sp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ListView
+            android:id="@+id/resultListView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

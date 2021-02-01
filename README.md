@@ -1,0 +1,1 @@
+ Use crawler to get the data and createcsv file as database (but it better to use mongodb) and then take them into google vision to train the model. Finally, we can use googel api to get json and then use it to find detail of goods,including website location  where to buy those goods. 
